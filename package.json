@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/m7anj/claude-fpe/issues"
   },
-  "homepage": "https://github.com/m7anj/claude-fpe#readme"
+  "homepage": "https://github.com/m7anj/claude-fpe#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
