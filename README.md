@@ -1,5 +1,5 @@
 # claude-fpe
-A CLI wrapper for Claude Code that encrypts secrets before they leave your machine.
+A CLI wrapper for Claude Code that encrypts secrets before they leave your machine through proxy-middleware.
 # The problem
 
 Claude Code reads your files, including .env files, config files, and anything else in your project. Every token it reads gets sent to Anthropic's servers as part of your session context. That includes database passwords, API keys, and internal hostnames you probably didn't think about. Or most times, like myself as an example, people often give Claude sensitive information such as API keys and we tell Claude to put these keys in
