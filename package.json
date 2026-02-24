@@ -1,0 +1,21 @@
+{
+  "name": "claude-fpe",
+  "version": "1.0.0",
+  "description": "A CLI wrapper for Claude Code that encrypts secrets before they leave your machine through proxy-middleware. # The problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m7anj/claude-fpe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/m7anj/claude-fpe/issues"
+  },
+  "homepage": "https://github.com/m7anj/claude-fpe#readme"
+}
